@@ -1,0 +1,48 @@
+# Terraform working dirs & caches
+**/.terraform/*
+**/.terraform.lock.hcl
+
+# Terraform state files (contain real resource data)
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Variable definitions (often contain secrets)
+terraform.tfvars
+*.auto.tfvars
+
+# Plan files (binary output)
+*.tfplan
+plan.out
+
+# Local overrides (used for testing)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Sensitive key/cert files
+*.pem
+*.key
+*.crt
+*.p12
+
+# Editor/IDE folders
+.vscode/
+.idea/
+*.iml
+
+# OS system files
+.DS_Store
+Thumbs.db
+
+# Logs or temp files
+*.log
+*.tmp
+
+# Optional: ignore website assets if they’re large or auto-generated
+# Uncomment if you don’t want to version-control static content
+# 01-s3-static-website/static-web/*
