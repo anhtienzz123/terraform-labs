@@ -11,8 +11,8 @@ crash.log
 crash.*.log
 
 # Variable definitions (often contain secrets)
-terraform.tfvars
-*.auto.tfvars
+# terraform.tfvars
+# *.auto.tfvars
 
 # Plan files (binary output)
 *.tfplan
